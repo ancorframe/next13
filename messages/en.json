@@ -1,0 +1,29 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "Locale": {
+    "en": "English",
+    "uk": "Ukrainian"
+  },
+  "Metadata": {
+    "title": "NextJs 13.4 Demo",
+    "description": "NextJs 13.4 Demo Project"
+  },
+  "Navigation": {
+    "home": "Home",
+    "login": "Login",
+    "admin": "Admin",
+    "register": "Register",
+    "cabinet": "Cabinet"
+  },
+  "LoginPage": {
+    "email": "Email",
+    "password": "Password"
+  },
+  "RegisterPage": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password"
+  }
+}

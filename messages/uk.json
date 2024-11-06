@@ -1,0 +1,29 @@
+{
+  "Index": {
+    "title": "Привіт!"
+  },
+  "Locale": {
+    "en": "Англійська",
+    "uk": "Українська"
+  },
+  "Metadata": {
+    "title": "NextJs 13.4 Демо",
+    "description": "NextJs 13.4 Демо Проект"
+  },
+  "Navigation": {
+    "home": "Головна",
+    "login": "Логін",
+    "admin": "Адмін",
+    "register": "Реєстрація",
+    "cabinet": "Кабінет"
+  },
+  "LoginPage": {
+    "email": "Електронна пошта",
+    "password": "Пароль"
+  },
+  "RegisterPage": {
+    "name": "Імя",
+    "email": "Електронна пошта",
+    "password": "Пароль"
+  }
+}
