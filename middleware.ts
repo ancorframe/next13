@@ -20,7 +20,7 @@ const authMiddleware = withAuth(
         "i"
       );
       const isAdminPage = adminPathnameRegex.test(req.nextUrl.pathname);
-    if (isAdminPage && req.nextauth.token?.user.role !== "ADMIN") {
+    if (isAdminPage && req.nextauth.token?.user.user.userData.role !== "ADMIN") {
       return NextResponse.redirect(new URL("/cabinet", req.url));
     }
     return intlMiddleware(req);

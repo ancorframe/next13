@@ -4,7 +4,7 @@ import Hydrate from "@/utils/hydrate.client";
 import { dehydrate } from "@tanstack/query-core";
 // import { getServerSession } from "next-auth";
 
-import styles from "../../page.module.css";
+import styles from "./page.module.scss";
 import ListUsers from "./list-users";
 
 // export const revalidate = 0;

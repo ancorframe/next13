@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../page.module.css";
+import styles from "../page.module.scss";
 import { useLocale } from "next-intl";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
@@ -15,9 +15,11 @@ async function Cabinet() {
   const locale = useLocale();
   const session = await getServerSession(authOptions);
   const message = await getUsers(locale);
+  console.log("ses", session);
+
   return (
     <main className={styles.main}>
-      {message && JSON.stringify(message)}
+      {session && JSON.stringify(session.user.user.userData)}
       <p>locale:{locale}</p>
     </main>
   );

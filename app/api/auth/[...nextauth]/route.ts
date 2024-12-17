@@ -62,7 +62,7 @@ export const authOptions: NextAuthOptions = {
         const user = await res.json();
         console.log(user);
         
-        if (user.id) {
+        if (user) {
           return Promise.resolve(user);
         } else {
           return null;

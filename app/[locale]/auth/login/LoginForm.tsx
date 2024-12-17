@@ -14,8 +14,8 @@ type FormValues = {
 };
 
 const defaultValues = {
-  email: "wotzad@mail.com",
-  password: "190294hudhwkux88",
+  email: "yu3ra@mail.com",
+  password: "iojduhvnewkur",
 };
 
 const LoginForm = ({ translate }: Props) => {
